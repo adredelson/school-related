@@ -85,7 +85,6 @@ class AI:
             if winner is None or winner == Game.DRAW:
                 rating = AI.DRAW_RATING
             return rating
-        # initialize best rating with lowest possible rating
         best_rating = AI.LOWEST_RATING
         for move in AI.VALID_MOVES:
             temp_game = deepcopy(game_copy)
@@ -103,9 +102,7 @@ class AI:
                 # we calculate the rating of the move alternating between the
                 # player and the opponent. We assume that the opponent will
                 # always choose the best move that he can, which is the worst
-                # move as far as the player is concerned. So when evaluating
-                # which move the opponent will choose, we simply rate the move
-                # as the additive inverse of the player's rating of the move
+                # move as far as the player is concerned.
                 rating = -self.__rate_moves(turns_ahead - 1, temp_game,
                                             -up_bound, -low_bound)
                 self.__explored[state] = rating
