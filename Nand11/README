@@ -1,0 +1,22 @@
+
+===============================================================================
+Dov Edelson
+===============================================================================
+
+                           Project 11 - Compilation
+                           ---------------------------
+  
+
+Submitted Files
+---------------
+compile_class.py - contains the implementation of the CompileEngine class, which generates .vm file for a given .jack file
+JackAnalyzer - the executable to run the project
+JackCompiler.py - runs the CompileEngine for the given input
+Makefile - makefile for the project
+tokenizer_class.py - contains the implementation of the JackTokenizer class, which tokenizes a given .jack file
+symbol_table_class.py - contains the implementation of the SymbolTable class, which stores information about the variables in a class and its methods
+vm_writer_class.py - contains the implementation of the VMWriter class, which generates vm code and writes it to an output file
+
+
+Remarks
+-------
