@@ -1,0 +1,12 @@
+
+Dov Edelson
+
+FILES:
+uthreads.cpp -- a library that implements user level threads
+uthreads.h -- uthreads function declarations
+sleeping_threads.h - a class representing a queue of sleeping threads
+sleeping_threads.cpp -- implementation of the SleepingThreads class
+
+REMARKS:
+-
+
