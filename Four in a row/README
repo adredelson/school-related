@@ -1,0 +1,21 @@
+
+====================================
+=  README for ex12: Four in a row  =
+====================================
+
+
+==================
+=  Description:  =
+==================
+board - A module containing the class Board, which creates objects for tracking
+the advancement of a four in a row game
+game - A module containing the class Game, which creates objects managing the
+logic of a four in a row game
+gui - A module containing the class GUI, which handles the GUI aspects of a
+four in a row game
+ai - A module containing the class AI, which creates objects that are
+capable of finding the optimal move in a four in a row game
+four_in_a_row - A module responsible for running a game of four in a row
+
+
+
